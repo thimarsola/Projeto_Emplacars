@@ -1,0 +1,159 @@
+/*Root*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+html{
+    height: 100vh;
+    font:{
+        // cada 1rem equivale a 10px
+        size: 62.5%;
+        family: 'Exo 2', sans-serif !important;
+    }
+    
+    line-height: 1.5;
+    
+    body{
+        height: 100vh;
+        font:{
+            size: 1.6rem;
+            weight: $font-light;
+        }
+        color: $color2;       
+    }
+
+    span, a, strong, address{
+        font:{
+            style: inherit;
+            weight: inherit;
+            size: inherit;
+        }
+        color: inherit;
+    }
+    
+    ul{
+        list-style: none;
+        list-style-position: inside;
+    }
+    
+}
+
+/*Button*/
+.btn{
+    display: inline-block;
+    margin: 0;
+    padding: 1.2rem 3.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    transition: transform .3s ease-in-out;
+
+    &:active{
+        transform: scale(1.1);
+        transition: transform .3s ease-in-out;
+    }
+}
+
+.btn-small{
+    display: inline-block;
+    margin: 0;
+    padding: .8rem 3.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    font:{
+        weight: $font-regular;
+    }
+    transition: transform .3s ease-in-out;
+
+    &:active{
+        transform: scale(1.1);
+        transition: transform .3s ease-in-out;
+    }
+}
+
+@each $color, $value in $theme-colors{
+    @if $color == color3{
+        .btn-#{$color}{
+            background-color: $value;
+            color: $color2;
+
+            &:hover{
+                background-color: darken($value, 10%);
+                transition: background-color .3s ease-in-out;
+            }
+        }
+    }@else{
+        .btn-#{$color}{
+            background-color: $value;
+            color: $color3;
+
+            &:hover{
+                background-color: darken($value, 10%);
+                transition: background-color .3s ease-in-out;
+            }
+        }
+    }
+}
+
+@each $color, $value in $theme-colors{
+    .btn-outline-#{$color}{
+        border: 1.5px solid $value !important;
+        color: $value;
+        border-radius: 50rem;
+
+        &:hover{
+            background-color: darken($value, 10%);
+            color: $color3;
+            transition: background-color .3s ease-in-out;
+        }
+    }
+}
+
+/*Container*/
+.container{
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    width: 100%;
+}
+
+@media (min-width: 576px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        padding: 0 1.6rem;
+        max-width: 1140px;
+    }
+}

@@ -1,0 +1,98 @@
+#header{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background:{
+        color: $bg-color4;
+    }
+    z-index: 100;
+    border-bottom: 2px solid $color1;
+    box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.1);
+
+    .header_navbar{
+        margin: 0;
+        padding: 1rem 0;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header_navbar_section{
+                .header_navbar_section_nav{
+                    ul{
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        & > li:last-child{
+                            padding-right: 0;
+                        }
+
+                        li{
+                            margin: 0;
+                            padding: .8rem 1.6rem;
+                            overflow: hidden;
+                            transition: .3s ease-in-out all;
+                            a{
+                                position: relative;
+                                margin: 0;
+                                padding: 0;
+                                width: 100%;
+                                font:{
+                                    size: 1.6rem;
+                                    weight: $font-regular;
+                                }
+                                color: $color2;
+
+                                &::after{
+                                    content: '';
+                                    position: absolute;
+                                    bottom: -1rem;
+                                    width: 100%;
+                                    left: 0;
+                                    transform: translateX(-200%);
+                                    transition: .3s ease-in-out all;
+                                }
+
+                                transition: .3s ease-in-out all;
+
+                                &:hover{
+                                    color: $color1;
+                                    
+                                    &::after{
+                                        content: '';
+                                        border: 1px solid $color1;
+                                        transform: translateX(0);
+                                        transform-origin: left;
+                                        transition: .5s linear all;
+                                    }
+                                    transition: .3s linear all;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hide{
+    display: none;
+    transition: display .5s linear;
+}
+
+.dark{
+    background-color: $color3 !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    img{
+        height: 70px !important;
+        transition: height .3s ease-in-out;
+    }
+}

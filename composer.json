@@ -1,0 +1,32 @@
+{
+    "name": "thimarsola/nome-projeto",
+    "description": "descrição do projeto",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Marsola",
+            "email": "thiago.marsola@goognet.com.br",
+            "role": "Developer",
+            "homepage": "https://goognet.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        },
+        "files": [
+            "source/Config.php",
+            "source/Helpers.php"
+        ]
+    },
+    "require": {
+        "ext-json": "*",
+        "coffeecode/router": "1.0.7",
+        "coffeecode/datalayer": "1.1.7",
+        "coffeecode/optimizer": "2.0.1",
+        "phpmailer/phpmailer": "v6.1.7",
+        "league/plates": "v4.0.0-alpha",
+        "matthiasmullie/minify": "1.3.63"
+    }
+}

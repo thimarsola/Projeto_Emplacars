@@ -1,0 +1,20 @@
+{
+  "name": "projeto_emplacars",
+  "version": "1.0.0",
+  "description": "Projeto website Emplacar's",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./public/assets/scss/:./public/assets/css/ --watch",
+    "server": "browser-sync -f . --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thimarsola/Projeto_Emplacars.git"
+  },
+  "author": "Thiago Marsola | https://github.com/thimarsola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thimarsola/Projeto_Emplacars/issues"
+  },
+  "homepage": "https://github.com/thimarsola/Projeto_Emplacars#readme"
+}

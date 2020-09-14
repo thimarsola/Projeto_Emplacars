@@ -1,0 +1,19 @@
+%title{
+    h1{
+        @include marginSet;
+        font:{
+            size: 4.2rem;
+            weight: $font-regular;
+        }
+        line:{
+            height: 1.2;
+        }
+
+        strong{
+            font:{
+                size: 5.2rem;
+                weight: $font-bold;
+            }
+        }
+    }
+}

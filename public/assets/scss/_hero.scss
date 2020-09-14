@@ -1,0 +1,105 @@
+#main_hero{
+    @include marginSet;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    background:{
+        image: url('../img/bg-home.jpg');
+        size: cover;
+        position: center right;
+        repeat: no-repeat;
+    }
+
+    /*header*/
+    .main_hero_header{
+        h1{
+            @include marginSet;
+            font:{
+                size: 4.8rem;
+                weight: $font-light;
+            }
+
+            strong{
+                font:{
+                    size: 5.8rem;
+                }
+                color: $color1;
+            }
+        }
+
+        hr{
+            margin: 4rem 0;
+            width: 8rem;
+            border: 2px solid $color1;
+        }
+    }
+    /*end of header*/
+
+    /*content*/
+    .main_hero_content{
+        @include marginSet;
+        max-width: 40vw;
+
+        p{
+            @include marginSet;
+            font:{
+                size: 2.5rem;
+            }
+            text:{
+                align: justify;
+            }
+        }
+    }
+    /*end of content*/
+
+    /*scroll*/
+    .main_hero_scroll {
+        position: absolute;
+        bottom: 2.5em;
+        left: 50%;
+        transform: translateX(-50%);
+
+        a {
+            display: block;
+            width: 2.5em;
+            height: 5em;
+            border-radius: 50rem;
+            -webkit-border-radius: 50rem;
+            border: 2px solid $color1;
+
+            &::after {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 16%;
+                left: 50%;
+                display: block;
+                width: .625em;
+                height: .625em;
+                background-color: $color1;
+                border-radius: 50em;
+                transform: translatex(-50%);
+                content: "";
+                animation: scroll 2s infinite;
+            }
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 0%;
+            top: 70%;
+        }
+    }
+
+    /*end of scroll*/
+
+}

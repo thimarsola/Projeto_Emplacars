@@ -1,0 +1,120 @@
+{
+    "units":
+            [
+                {
+                    "title": "Unidade Freguesia",
+                    "address": "Av. Fuad Lutfalla, 1450<br>Freguesia do Ó",
+                    "zip_code": "02968-000",
+                    "phones": [
+                        "2373-5337"
+                    ],
+                    "whatsapp": "23735337"
+                },
+                {
+                    "title": "Unidade Vila Maria",
+                    "address": "Av. Guilherme Cotching, 482a<br>Vila Maria",
+                    "zip_code": "02113-010",
+                    "phones": [
+                        "2384-4464"
+                    ],
+                    "whatsapp": "23844464"
+                },
+                {
+                    "title": "Unidade Pirituba",
+                    "address": "Av. Elisio Cordeiro de Siqueira, 134<br>Pirituba",
+                    "zip_code": " 05136-000",
+                    "phones": [
+                        "2384-4564"
+                    ],
+                    "whatsapp": "23844564"
+                },
+                {
+                    "title": "Unidade Tucuruvi",
+                    "address": "Av. Guapira, 1430<br>Tucuruvi",
+                    "zip_code": "02265-002",
+                    "phones": [
+                        "2614-3817",
+                        "95948-8518"
+                    ],
+                    "whatsapp": "959488518"
+                },
+                {
+                    "title": "Unidade Engenheiro",
+                    "address": "Av.Eng Caetano Álvares, 5656<br>Imirim",
+                    "zip_code": "02413-100",
+                    "phones": [
+                        "2387-9308"
+                    ],
+                    "whatsapp": "23879308"
+                },
+                {
+                    "title": "Unidade Lapa",
+                    "address": "Rua Guaicurus, 452<br>Água Branca",
+                    "zip_code": "05033-001",
+                    "phones": [
+                        "2738-8154"
+                    ],
+                    "whatsapp": "27388154"
+                },
+                {
+                    "title": "Unidade Osasco",
+                    "address": "Av. dos Autonomistas, 6639<br>Vila Yara",
+                    "zip_code": "06194-050",
+                    "phones": [
+                        "99295-9207",
+                        "3607-1682"
+                    ],
+                    "whatsapp": "992959207"
+                },
+                {
+                    "title": "Unidade Centro-SP",
+                    "address": "Rua Conselheiro Nébias, 834<br>Campos Elíseos",
+                    "zip_code": "01203-000",
+                    "phones": [
+                        "2738-8770",
+                        "96407-0484",
+                        "97404-4833"
+                    ],
+                    "whatsapp": "974044833"
+                },
+                {
+                    "title": "Unidade São Mateus",
+                    "address": "Av. Ragueb Chohfi, 626<br>Jardim Três Marias",
+                    "zip_code": "08375-000",
+                    "phones": [
+                        "3793-5678",
+                        "96602-5528",
+                        "99566-4429",
+                        "94483-7786"
+                    ],
+                    "whatsapp": "944837786"
+                },
+                {
+                    "title": "Unidade ABC",
+                    "address": "Rua Coronel Alfredo Fláquer, 383<br>Centro, Santo André<br>(Av. Perimetral)",
+                    "zip_code": "09020-030",
+                    "phones": [
+                        "4990-1855"
+                    ],
+                    "whatsapp": "49901855"
+                },
+                {
+                    "title": "Unidade Aricanduva",
+                    "address": "Rua Araramboia, 4<br>Jardim Ipanema, São Paulo",
+                    "zip_code": " 03582-160",
+                    "phones": [
+                        "96407-0484"
+                    ],
+                    "whatsapp": "964070484"
+                },
+                {
+                    "title": "Unidade Mooca",
+                    "address": "Rua Conselheiro Lafaiete, 262<br>Mooca",
+                    "zip_code": "03164-110",
+                    "phones": [
+                        "97222-8191"
+                    ],
+                    "whatsapp": "972228191"
+                }
+            ]
+}

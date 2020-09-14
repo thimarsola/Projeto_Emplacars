@@ -1,0 +1,35 @@
+{
+    "products": 
+            [
+                {
+                    "image": "img-par-de-placas",
+                    "title": "Par de Placas",
+                    "price": "220,00",
+                    "description": "o par"
+                },
+                {
+                    "image": "img-placa-unitaria",
+                    "title": "Placa Unitária",
+                    "price": "120,00",
+                    "description": "a unidade"
+                },
+                {
+                    "image": "img-placa-de-moto",
+                    "title": "Placa de Moto",
+                    "price": "220,00",
+                    "description": "a unidade"
+                },
+                {
+                    "image": "img-placa-decorativa",
+                    "title": "Placa Decorativa",
+                    "price": "59,90",
+                    "description": "a unidade"
+                },
+                {
+                    "image": "img-promocao-placa-decorativa",
+                    "title": "Promoção<br>(2 Placas Decorativas)",
+                    "price": "90,90",
+                    "description": "o par"
+                }
+            ]
+}

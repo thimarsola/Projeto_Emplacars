@@ -1,0 +1,149 @@
+#compre-ja{
+    @include margin;
+
+    /*header*/
+    .main_buyNow_header{
+        @include marginSet;
+
+        h1{
+            margin: 0;
+            padding: 0;
+            font:{
+                size: 4.3rem;
+                weight: $font-light;
+            }
+            text:{
+                align: center;
+            }
+            line:{
+                height: 1.2;
+            }
+
+            strong{
+                font:{
+                    size: 5.2rem;
+                    weight: $font-bold;
+                }
+                color: $color1;
+            }
+        }
+
+        hr{
+            margin: 3rem auto 8rem auto;
+            padding: 0;
+            width: 8rem;
+            border: 3px solid $color1;
+            background:{
+                color: $color1;
+            }
+        }
+    }
+    /*end of header*/
+
+    /*content*/
+    .main_buyNow_content{
+        @include marginSet;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-gap: 3rem;
+
+        /*card*/
+        .main_buyNow_content_card{
+            width: 100%;
+            background:{
+                color: $color3;
+            }
+            border-radius: 1.5rem;
+            -webkit-border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+
+            /*image*/
+            .main_buyNow_content_card_image{
+                width: 100%;
+                height: 18rem;
+                border-bottom: 4px solid $color1;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object:{
+                        fit: cover;
+                        position: center;
+                    }
+                }
+            }
+            /*end of image*/
+
+            /*content*/
+            .main_buyNow_content_card_content{
+                margin: 0;
+                padding: 3.2rem;
+
+                h2{
+                    @include marginSet;
+                    font:{
+                        size: 2.2rem;
+                        weight: $font-bold;
+                    }
+                    text:{
+                        align: center;
+                    }
+                    color: $color1;
+                }
+
+                /*price*/
+                .main_buyNow_content_card_content_price{
+                    margin: 1.8rem 0 2.8rem 0;
+                    padding: 0;
+
+                    p{
+                        @include marginSet;
+                        text:{
+                            align: center;
+                        }
+                        line:{
+                            height: 1;
+                        }
+
+                        &:first-child{
+                            font:{
+                                size: 1.8rem;
+                                weight: $font-regular;
+                            }
+                            color: $color1;
+
+                            span{
+                                font:{
+                                    size: 3.6rem;
+                                    weight: $font-bold;
+                                }
+                            }
+                        }
+                    }
+                }
+                /*end of price*/
+                
+                /*button cta*/
+                .main_buyNow_content_card_content_buttonCta{
+                    @include marginSet;
+                    text:{
+                        align: center;
+                    }
+                    
+                    p{
+                        margin-top: .8rem;
+                        font:{
+                            size: 1.4rem;
+                        }
+                    }
+                }
+                /*end of button cta*/
+            }
+            /*end of content*/
+        }
+        /*end of card*/
+    }
+    /*end of content*/
+}
