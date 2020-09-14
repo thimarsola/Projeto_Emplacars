@@ -55,13 +55,13 @@
                                         <a href="<?= url("#quem-somos"); ?>">Quem somos</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("compre-ja"); ?>">Compre já</a>
+                                        <a href="<?= url("#compre-ja"); ?>">Compre já</a>
                                     </li>
                                     <li>
                                         <a href="<?= url("#unidades"); ?>">Unidades</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#franquias"); ?>">Franquias</a>
+                                        <a href="<?= url("#franquia"); ?>">Franquias</a>
                                     <li>
                                         <a href="<?= url("#duvidas"); ?>">Dúvidas</a>
                                     </li>

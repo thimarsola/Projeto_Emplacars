@@ -153,40 +153,40 @@
                         <img src="<?= asset("img/vt-units.svg"); ?>" alt="Unidade Emplacar's">
                     </div>
                     <!--end of image-->
-                    
+
                     <!--content-->
                     <div class="main_units_content_card_content">
                         <h2><?= $unit["title"]; ?></h2>
-                        
+
                         <!--address-->
                         <div class="main_units_content_card_content_address">
                             <address><?= $unit["address"]; ?></address>
                         </div>
                         <!--end of address-->
-                        
+
                         <!--zip code-->
                         <div class="main_units_content_card_content_zipCode">
                             <p>CEP: <?= $unit["zip_code"]; ?></p>
                         </div>
                         <!--end of zip code-->
-                        
+
                         <!--phone-->
                         <div class="main_units_content_card_content_phone">
                             <?php
-                                foreach ($unit["phones"] as $phone):
-                            ?>
-                            
-                            <p>Tel: <?= $phone; ?></p>
-                            
+                            foreach ($unit["phones"] as $phone):
+                                ?>
+
+                                <p>Tel: <?= $phone; ?></p>
+
                             <?php endforeach; ?>
                         </div>
-                        
+
                         <!--button cta-->
                         <div class="main_units_content_card_content_buttonCta">
                             <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511<?= $unit["whatsapp"]; ?>&text=Olá! Gostaria de solicitar uma placa" class="btn btn-color1" title="Solicite sua placa aqui na <?= $unit["title"]; ?>" target="_blank">Solicite sua placa aqui</a>
                         </div>
                         <!--end of button cta-->
-                        
+
                         <!--end of phone-->
                     </div>
                     <!--end of content-->
@@ -202,5 +202,125 @@
     </div>
 </section>
 <!--end of units-->
+
+<!--franchisee-->
+<section id="franquia">
+    <div class="container">
+
+        <!--content-->
+        <div class="main_franchisee_content">
+
+            <!--header-->
+            <header class="main_franchisee_content_header">
+                <h1>Seja um<br><strong>Franqueado</strong></h1>
+            </header>
+            <!--end of header-->
+
+            <!--text-->
+            <div class="main_franchisee_content_text">
+                <p>A EmplaCar’s é uma empresa inovadora, conduzida por pessoas experientes, que buscam como diferenciais a excelência de seu atendimento e a qualidade na prestação de seus serviços.</p>
+                <p>E essa é a sua oportunidade de se juntar a nós e investir num negócio simples e lucrativo, com baixo investimento inicial e pequenos custos operacionais.</p>
+            </div>
+
+            <!--article-->
+            <div class="main_franchisee_content_text_article">
+
+                <!--header-->
+                <div class="main_franchisee_content_text_article_header">
+                    <h2>O que é necessário?</h2>
+                </div>
+                <!--end of header-->
+
+                <!--content-->
+                <div class="main_franchisee_content_text_article_content">
+                    <p>Ter espírito empreendedor e dedicação ao seu negócio.</p>
+                    <p>Pronto! Você está preparado para iniciar sua franquia <strong>EmplaCar’s</strong> e se tornar um empreendedor de sucesso.</p>
+                </div>
+                <!--end of content-->
+
+            </div>
+            <!--end of article-->
+
+            <!--article-->
+            <div class="main_franchisee_content_text_article">
+
+                <!--header-->
+                <div class="main_franchisee_content_text_article_header">
+                    <h2>Como funciona?</h2>
+                </div>
+                <!--end of header-->
+
+                <!--content-->
+                <div class="main_franchisee_content_text_article_content">
+                    <p>O modelo de negócio é bastante simples, sem necessidade de conhecimento na área e a <strong>EmplaCar’s</strong> fornece todo o apoio e suporte necessário para você iniciar sua empresa.</p>
+                    <p>Entre em contato com um de nossos especialistas e torne-se um franqueado de sucesso agora mesmo, clicando no botão abaixo.</p>
+                </div>
+                <!--end of content-->
+
+            </div>
+            <!--end of article-->
+
+            <!--button cta-->
+            <div class="main_franchisee_content_text_buttonCta">
+                <a class="btn btn-color1" href="https://api.whatsapp.com/send?l=pt_BR&phone=55<?= PHONE["whatsapp"]; ?>" title="Seja um Franqueado Emplacar's" target="_blank">Quero ser um franqueado</a>
+
+            </div>
+            <!--end of button cta-->
+
+            <!--end of text-->
+
+        </div>
+        <!--end of content-->
+
+        <!--image-->
+        <div class="main_franchisee_image">
+            <img src="<?= asset("img/img-franquia.jpg") ?>" alt="Franquia Emplacar's">
+        </div>
+        <!--end of image-->
+
+    </div>
+</section>
+<!--end of franchisee-->
+
+<!--license plate-->
+<section id="main_licensePlate">
+
+    <!--content-->
+    <div class="main_licensePlate_content">
+
+        <!--header-->
+        <header class="main_licensePlate_content_header">
+            <h1>Emplacamento Domiciliar</h1>
+            <hr>
+        </header>
+        <!--end of header-->
+
+        <!--text-->
+        <div class="main_licensePlate_content_text">
+            <p>Com a <strong>EmplaCar’s</strong>, você emplaca seu veículo sem sair do conforto de sua casa.</p>
+            <p>É isso mesmo, a EmplaCar’s vai até você.</p>
+            <br>
+            <p>Solicite seu orçamento agora mesmo, através da unidade mais próxima.</p>
+        </div>
+        <!--end of text-->
+
+        <!--button cta-->
+        <div class="main_licensePlate_content_buttonCta">
+            <a class="btn btn-color3" href="https://api.whatsapp.com/send?l=pt_BR&phone=55<?= PHONE["whatsapp"]; ?>" title="Solicitar orçamento" target="_blank">Solicitar orçamento</a>
+        </div>
+
+        <!--end of button cta-->
+
+    </div>
+    <!--end of content-->
+
+    <!--image-->
+    <div class="main_licensePlate_image">
+        <img src="<?= asset("img/img-emplacamento.jpg") ?>" alt="Emplacamento Domiciliar Emplacar's">
+    </div>
+    <!--end of image-->
+
+</section>
+<!--end of license plate-->
 
 

@@ -1,11 +1,11 @@
 /*mixins*/
-#unidades .main_units_header h1 {
+#unidades .main_units_header h1, #franquia .container .main_franchisee_content .main_franchisee_content_header h1 {
   margin: 0;
   padding: 0;
   font-size: 4.2rem;
   font-weight: 500;
   line-height: 1.2; }
-  #unidades .main_units_header h1 strong {
+  #unidades .main_units_header h1 strong, #franquia .container .main_franchisee_content .main_franchisee_content_header h1 strong {
     font-size: 5.2rem;
     font-weight: 700; }
 
@@ -487,6 +487,123 @@ html {
           font-style: normal; }
         #unidades .main_units_content .main_units_content_card .main_units_content_card_content .main_units_content_card_content_buttonCta {
           margin-top: 1.6rem; }
+
+/*franchisee*/
+#franquia {
+  margin: 0;
+  padding: 10rem 0; }
+  #franquia .container {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    /*content*/
+    /*end of content*/
+    /*image*/
+    /*end of image*/ }
+    #franquia .container .main_franchisee_content {
+      flex-basis: 60%;
+      padding-right: 3rem;
+      /*header*/
+      /*end of header*/
+      /*text*/
+      /*end of text*/
+      /*article*/
+      /*end of article*/ }
+      #franquia .container .main_franchisee_content .main_franchisee_content_header {
+        margin-bottom: 4rem;
+        padding-left: 3.8rem;
+        border-left: 6px solid #266AA3; }
+      #franquia .container .main_franchisee_content .main_franchisee_content_text {
+        margin-bottom: 3.2rem;
+        padding: 0; }
+        #franquia .container .main_franchisee_content .main_franchisee_content_text p {
+          margin: 0;
+          padding: 0;
+          text-align: justify; }
+      #franquia .container .main_franchisee_content .main_franchisee_content_text_article {
+        /*header*/
+        /*end of header*/
+        /*content*/
+        /*end of content*/ }
+        #franquia .container .main_franchisee_content .main_franchisee_content_text_article .main_franchisee_content_text_article_header h2 {
+          margin-bottom: 2rem;
+          padding: 0;
+          font-size: 2.2rem;
+          font-weight: 700;
+          color: #266AA3; }
+        #franquia .container .main_franchisee_content .main_franchisee_content_text_article .main_franchisee_content_text_article_content {
+          margin-bottom: 3.2rem; }
+          #franquia .container .main_franchisee_content .main_franchisee_content_text_article .main_franchisee_content_text_article_content p {
+            margin: 0;
+            padding: 0;
+            text-align: justify; }
+    #franquia .container .main_franchisee_image {
+      flex-basis: 40%;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 1.5rem;
+      -webkit-border-radius: 1.5rem;
+      overflow: hidden;
+      /*image*/
+      /*end of image*/ }
+      #franquia .container .main_franchisee_image img {
+        width: 100%;
+        height: 100%; }
+
+/*license plate*/
+#main_licensePlate {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /*content*/
+  /*end of content*/
+  /*image*/
+  /*end of image*/ }
+  #main_licensePlate .main_licensePlate_content {
+    flex-basis: 65%;
+    width: 100%;
+    margin: 0;
+    padding: 6.4rem;
+    background-color: #266AA3;
+    color: #ffffff;
+    /*header*/
+    /*end of header*/
+    /*text*/
+    /*end of text*/
+    /*button cta*/
+    /*cta button cta*/ }
+    #main_licensePlate .main_licensePlate_content .main_licensePlate_content_header {
+      margin-bottom: 2rem;
+      padding: 0; }
+      #main_licensePlate .main_licensePlate_content .main_licensePlate_content_header h1 {
+        margin-bottom: 1.6rem;
+        padding: 0;
+        font-size: 4.2rem;
+        font-weight: 700; }
+      #main_licensePlate .main_licensePlate_content .main_licensePlate_content_header hr {
+        margin: 0;
+        padding: 0;
+        width: 8rem;
+        border: 2px solid #ffffff; }
+    #main_licensePlate .main_licensePlate_content .main_licensePlate_content_text {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem; }
+    #main_licensePlate .main_licensePlate_content .main_licensePlate_content_buttonCta {
+      margin-top: 3.2rem; }
+  #main_licensePlate .main_licensePlate_image {
+    flex-basis: 35%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center; }
+    #main_licensePlate .main_licensePlate_image img {
+      width: 100%;
+      height: 100%; }
 
 /*footer*/
 #footer {

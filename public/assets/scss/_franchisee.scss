@@ -1,0 +1,96 @@
+#franquia{
+    @include margin;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        /*align-items: center;*/
+
+        /*content*/
+        .main_franchisee_content{
+            flex-basis: 60%;
+            padding-right: 3rem;
+
+            /*header*/
+            .main_franchisee_content_header{
+                margin-bottom: 4rem;
+                padding-left: 3.8rem;
+                border-left: 6px solid $color1;
+                @extend %title;
+            }
+            /*end of header*/
+
+            /*text*/
+            .main_franchisee_content_text{
+                margin-bottom: 3.2rem;
+                padding: 0;
+
+                p{
+                    margin: 0;
+                    padding: 0;
+                    text:{
+                        align: justify;
+                    }
+                }
+            }
+            /*end of text*/
+
+            /*article*/
+            .main_franchisee_content_text_article{
+
+                /*header*/
+                .main_franchisee_content_text_article_header{
+                    h2{
+                        margin-bottom: 2rem;
+                        padding: 0;
+                        font:{
+                            size: 2.2rem;
+                            weight: $font-bold;
+                        }
+                        color: $color1;
+                    }
+                }
+                /*end of header*/
+
+                /*content*/
+                .main_franchisee_content_text_article_content{
+                    margin-bottom: 3.2rem;
+
+                    p{
+                        @include marginSet;
+                        text:{
+                            align: justify;
+                        }
+                    }
+                }
+                /*end of content*/
+
+            }
+            /*end of article*/
+
+        }
+        /*end of content*/
+
+        /*image*/
+        .main_franchisee_image{
+            flex-basis: 40%;
+            width: 100%;
+            height: auto;
+            object:{
+                fit: cover;
+                position: center;
+            }
+            border-radius: 1.5rem;
+            -webkit-border-radius: 1.5rem;
+            overflow: hidden;
+            
+            /*image*/
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            /*end of image*/
+        }
+        /*end of image*/
+    }
+}
