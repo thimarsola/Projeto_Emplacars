@@ -1,0 +1,133 @@
+#duvidas{
+    @include margin;
+
+    /*header*/
+    .main_doubts_header{
+        margin-bottom: 4.8rem;
+        padding: 0;
+
+        h1{
+            margin-bottom: 2.4rem;
+            padding: 0;
+            font:{
+                size: 5.2rem;
+                weight: $font-bold;
+            }
+            text:{
+                align: center;
+            }
+            color: $color1;
+        }
+
+        hr{
+            margin: 0 auto;
+            padding: 0;
+            width: 8rem;
+            height: .4rem;
+            border: 3px solid $color1;
+        }
+    }
+    /*end of header*/
+
+    /*content*/
+    .main_doubts_content{
+        @include marginSet;
+
+        /*article*/
+        .main_doubts_content_article{
+            margin: 4.2rem auto;
+            padding: 0;
+            max-width: 80rem;
+            background:{
+                color: $color3;
+            }
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+
+            /*header*/
+            .main_doubts_content_article_header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0;
+                padding: 3.8rem;
+                cursor: pointer;
+                transition: .3s ease-in-out all;
+
+                h1{
+                    margin: 0;
+                    padding: 0;
+                    font:{
+                        size: 2.8rem;
+                        weight: $font-bold;
+                    }
+                    color: $color1;
+                }
+
+                img{
+                    transform: rotate(0deg);
+                    transition: transform .3s ease-in-out;
+                }
+            }
+            /*end of header*/
+
+            /*content*/
+            .main_doubts_content_article_content{
+                margin: 0;
+                padding: 3.8rem;
+                background:{
+                    color: darken($color3, 1%);
+                }
+                transform-origin: top;
+                transform: translateY(-200%);
+                display: none;
+                transition: .5s linear all;
+
+                p{
+                    margin: 0;
+                    padding: 0;
+                    text:{
+                        align: justify;
+                    }
+                }
+            }
+            /*end of content*/
+
+        }
+        /*end of article*/
+
+        /*click*/
+        .click{
+
+            /*header*/
+            .main_doubts_content_article_header{
+                img{
+                    transform: rotate(180deg);
+                    transition: transform .3s ease-in-out;
+                }
+            }
+            /*end of header*/
+            .main_doubts_content_article_content{
+                display: block;
+                transform: translateY(0);
+                transition: transform .3s ease-in-out;
+                animation-name: fadeIn;
+                animation-duration: .3s;
+                animation-fill-mode: both;
+            }
+            /*content*/
+            /*end of content*/
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1
+            }
+        }
+        /*end of click*/
+    }
+    /*end of content*/
+}

@@ -47,7 +47,8 @@ html {
   vertical-align: middle;
   outline: none;
   border: none;
-  transition: transform .3s ease-in-out; }
+  transition: transform .3s ease-in-out;
+  font-weight: 500; }
   .btn:active {
     transform: scale(1.1);
     transition: transform .3s ease-in-out; }
@@ -85,7 +86,7 @@ html {
   background-color: #ffffff;
   color: #747474; }
   .btn-color3:hover {
-    background-color: #e6e6e6;
+    background-color: #d9d9d9;
     transition: background-color .3s ease-in-out; }
 
 .btn-outline-color1 {
@@ -605,6 +606,97 @@ html {
       width: 100%;
       height: 100%; }
 
+/*doubts*/
+#duvidas {
+  margin: 0;
+  padding: 10rem 0;
+  /*header*/
+  /*end of header*/
+  /*content*/
+  /*end of content*/ }
+  #duvidas .main_doubts_header {
+    margin-bottom: 4.8rem;
+    padding: 0; }
+    #duvidas .main_doubts_header h1 {
+      margin-bottom: 2.4rem;
+      padding: 0;
+      font-size: 5.2rem;
+      font-weight: 700;
+      text-align: center;
+      color: #266AA3; }
+    #duvidas .main_doubts_header hr {
+      margin: 0 auto;
+      padding: 0;
+      width: 8rem;
+      height: .4rem;
+      border: 3px solid #266AA3; }
+  #duvidas .main_doubts_content {
+    margin: 0;
+    padding: 0;
+    /*article*/
+    /*end of article*/
+    /*click*/
+    /*end of click*/ }
+    #duvidas .main_doubts_content .main_doubts_content_article {
+      margin: 4.2rem auto;
+      padding: 0;
+      max-width: 80rem;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      /*header*/
+      /*end of header*/
+      /*content*/
+      /*end of content*/ }
+      #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 3.8rem;
+        cursor: pointer;
+        transition: .3s ease-in-out all; }
+        #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_header h1 {
+          margin: 0;
+          padding: 0;
+          font-size: 2.8rem;
+          font-weight: 700;
+          color: #266AA3; }
+        #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_header img {
+          transform: rotate(0deg);
+          transition: transform .3s ease-in-out; }
+      #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_content {
+        margin: 0;
+        padding: 3.8rem;
+        background-color: #fcfcfc;
+        transform-origin: top;
+        transform: translateY(-200%);
+        display: none;
+        transition: .5s linear all; }
+        #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_content p {
+          margin: 0;
+          padding: 0;
+          text-align: justify; }
+    #duvidas .main_doubts_content .click {
+      /*header*/
+      /*end of header*/
+      /*content*/
+      /*end of content*/ }
+      #duvidas .main_doubts_content .click .main_doubts_content_article_header img {
+        transform: rotate(180deg);
+        transition: transform .3s ease-in-out; }
+      #duvidas .main_doubts_content .click .main_doubts_content_article_content {
+        display: block;
+        transform: translateY(0);
+        transition: transform .3s ease-in-out;
+        animation-name: fadeIn;
+        animation-duration: .3s;
+        animation-fill-mode: both; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 /*footer*/
 #footer {
   margin: 0;

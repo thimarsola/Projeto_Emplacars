@@ -136,6 +136,7 @@
 
         <!-- SCRIPTS -->
         <script src="<?= asset("js/main.min.js"); ?>"></script>
+        <script src="//code.jivosite.com/widget/JOwG95qu5k" async></script>
         <?= $v->section("scripts"); ?>
     </body>
 

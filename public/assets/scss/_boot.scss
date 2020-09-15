@@ -53,6 +53,9 @@ html{
     outline: none;
     border: none;
     transition: transform .3s ease-in-out;
+    font:{
+        weight: $font-regular;
+    }
 
     &:active{
         transform: scale(1.1);
@@ -87,7 +90,7 @@ html{
             color: $color2;
 
             &:hover{
-                background-color: darken($value, 10%);
+                background-color: darken($value, 15%);
                 transition: background-color .3s ease-in-out;
             }
         }

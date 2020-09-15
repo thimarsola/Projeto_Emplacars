@@ -12,11 +12,28 @@ define("DEV", [
  * SITE CONFIG
  */
 define("SITE",[
-   "name" => "Goognet Solução Digital",
-    "desc" => "Goognet Solução Digital",
-    "domain" => "goognet.com.br",
+   "name" => "Emplacar's | Emplacamento Automotivo",
+    "desc" => "Emplacar's",
+    "domain" => "mercosulemplacars.com.br",
     "locale" => "pt_BR",
     "root" => "https://localhost/desenvolvimento/Projeto_Emplacars"
+]);
+
+/**
+ * REGION
+ */
+define("REGION", [
+   "region" => "BR-SP",
+    "placename" => "S&atilde;o Paulo",
+    "position" => "-23.477941;-46.706598",
+    "icbm" => "-23.477941, -46.706598"
+]);
+
+/**
+ * PHONE
+ */
+define("PHONE", [
+    "whatsapp" => "1123735337"
 ]);
 
 /**
@@ -65,22 +82,5 @@ define("MAIL", [
     "passwd" => "Contato123*",
     "from_name" => "Website Lojas Emofer",
     "from_email" => "emofer@emofer.com.br"
-]);
-
-/**
- * REGION
- */
-define("REGION", [
-   "region" => "xxx",
-    "placename" => "xxx",
-    "position" => "xxx",
-    "icbm" => "xxx"
-]);
-
-/**
- * PHONE
- */
-define("PHONE", [
-    "whatsapp" => "1123735337"
 ]);
 

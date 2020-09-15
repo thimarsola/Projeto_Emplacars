@@ -324,3 +324,104 @@
 <!--end of license plate-->
 
 
+<!--doubts-->
+<section id="duvidas">
+    <div class="container">
+        
+        <!--header-->
+        <header class="main_doubts_header">
+            <h1>Dúvidas Frequentes</h1>
+            <hr>
+        </header>
+        <!--end of header-->
+        
+        <!--content-->
+        <div class="main_doubts_content">
+            
+            <!--article-->
+            <article class="main_doubts_content_article">
+                
+                <!--header-->
+                <header class="main_doubts_content_article_header">
+                    <h1>A troca de placa é obrigatória?</h1>
+                    <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
+                </header>
+                <!--end of header-->
+                
+                <div class="main_doubts_content_article_content">
+                    <p>A troca de placa é obrigatória para o primeiro emplacamento (veículo 0km).</p>
+                    <br>
+                    <p>Mudança de categoria de veículo.</p>
+                    <br>
+                    <p>Em caso de furto, extravio, roubo ou dano na placa (inclusive dano à tarjeta e rompimento do lacre da placa traseira padrão cinza).</p>
+                    <br>
+                    <p>Mudança de munícipio ou de Estado.</p>
+                    <br>
+                    <p>Quando o veículo for reprovado em vistoria veicular no procedimentos de transferência com observações sobre a placa e/ou lacre (exemplo: placa não refletiva).</p>
+                    <br>
+                    <p>Necessidade de instalação de placa adicional traseira</p>
+                </div>
+                
+            </article>
+            <!--end of article-->
+            
+            <!--article-->
+            <article class="main_doubts_content_article">
+                
+                <!--header-->
+                <header class="main_doubts_content_article_header">
+                    <h1>A troca de placa é obrigatória?</h1>
+                    <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
+                </header>
+                <!--end of header-->
+                
+                <div class="main_doubts_content_article_content">
+                    <p>A troca de placa é obrigatória para o primeiro emplacamento (veículo 0km).</p>
+                    <br>
+                    <p>Mudança de categoria de veículo.</p>
+                    <br>
+                    <p>Em caso de furto, extravio, roubo ou dano na placa (inclusive dano à tarjeta e rompimento do lacre da placa traseira padrão cinza).</p>
+                    <br>
+                    <p>Mudança de munícipio ou de Estado.</p>
+                    <br>
+                    <p>Quando o veículo for reprovado em vistoria veicular no procedimentos de transferência com observações sobre a placa e/ou lacre (exemplo: placa não refletiva).</p>
+                    <br>
+                    <p>Necessidade de instalação de placa adicional traseira</p>
+                </div>
+                
+            </article>
+            <!--end of article-->
+            
+            <!--article-->
+            <article class="main_doubts_content_article">
+                
+                <!--header-->
+                <header class="main_doubts_content_article_header">
+                    <h1>A troca de placa é obrigatória?</h1>
+                    <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
+                </header>
+                <!--end of header-->
+                
+                <div class="main_doubts_content_article_content">
+                    <p>A troca de placa é obrigatória para o primeiro emplacamento (veículo 0km).</p>
+                    <br>
+                    <p>Mudança de categoria de veículo.</p>
+                    <br>
+                    <p>Em caso de furto, extravio, roubo ou dano na placa (inclusive dano à tarjeta e rompimento do lacre da placa traseira padrão cinza).</p>
+                    <br>
+                    <p>Mudança de munícipio ou de Estado.</p>
+                    <br>
+                    <p>Quando o veículo for reprovado em vistoria veicular no procedimentos de transferência com observações sobre a placa e/ou lacre (exemplo: placa não refletiva).</p>
+                    <br>
+                    <p>Necessidade de instalação de placa adicional traseira</p>
+                </div>
+                
+            </article>
+            <!--end of article-->
+            
+        </div>
+        <!--endo of content-->
+        
+    </div>
+</section>
+<!--end of doubts-->
