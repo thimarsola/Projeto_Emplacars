@@ -22,9 +22,3 @@ $theme-colors: map_merge(
     "color3": $color3,
     ), $theme-colors
 );
-
-//INCLUDES
-@import "includes";
-
-//EXTENDS
-@import "extends";

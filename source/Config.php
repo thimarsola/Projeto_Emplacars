@@ -12,11 +12,13 @@ define("DEV", [
  * SITE CONFIG
  */
 define("SITE",[
-   "name" => "Emplacar's | Emplacamento Automotivo",
+    "name" => "Emplacar's | Emplacamento Automotivo",
     "desc" => "Emplacar's",
     "domain" => "mercosulemplacars.com.br",
-    "locale" => "pt_BR",
-    "root" => "https://localhost/desenvolvimento/Sites/Projeto_Emplacars"
+    "locale" => "pt-BR",
+    "root" => "https://localhost/desenvolvimento/Sites/Projeto_Emplacars",
+    "title" => "Emplacar's",
+    "mail" => "emplacars@gmail.com"
 ]);
 
 /**
@@ -80,7 +82,7 @@ define("MAIL", [
     "port" => "587",
     "user" => "sender@goognet.com.br",
     "passwd" => "Contato123*",
-    "from_name" => "Website Lojas Emofer",
-    "from_email" => "emofer@emofer.com.br"
+    "from_name" => "Thiago Marsola",
+    "from_email" => "thiago.marsola@goognet.com.br"
 ]);
 

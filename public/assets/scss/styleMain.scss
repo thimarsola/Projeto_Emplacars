@@ -1,53 +1,59 @@
 /*mixins*/
-@import "mixins";
+@import "boot/mixins";
 
 /*boot*/
-@import "boot";
+@import "boot/boot";
+
+/*includes*/
+@import "home/includes";
+
+/*extends*/
+@import "home/extends";
 
 /*navbar*/
-@import "navbar";
+@import "_theme/navbar";
 
 /*hero*/
-@import "hero";
+@import "home/hero";
 
 /*about*/
-@import "about";
+@import "home/about";
 
 /*buy now*/
-@import "buyNow";
+@import "home/buyNow";
 
 /*units*/
-@import "units";
+@import "home/units";
 
 /*franchisee*/
-@import "franchisee";
+@import "home/franchisee";
 
 /*license plate*/
-@import "licensePlate";
+@import "home/licensePlate";
 
 /*doubts*/
-@import "doubts";
+@import "home/doubts";
 
 /*change*/
-@import "change";
+@import "home/change";
 
 /*models*/
-@import "models";
+@import "home/models";
 
 /*conversion*/
-@import "conversion";
+@import "home/conversion";
 
 /*contact*/
-@import "contact";
+@import "home/contact";
 
 /*information*/
-@import "information";
+@import "home/information";
 
 /*map*/
-@import "map";
+@import "home/map";
 
 /*footer*/
-@import "footer";
+@import "_theme/footer";
 
 /*media query*/
-@import "mediaQuery";
+@import "home/mediaQuery";

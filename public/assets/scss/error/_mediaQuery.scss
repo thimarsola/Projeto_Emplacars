@@ -1,0 +1,45 @@
+// width - 768px
+@media (max-width: 768px){
+    html {
+        font-size: 50%;
+    }   
+
+}
+
+// width - 425px
+@media (max-width: 425px){
+
+}
+
+// width - 375px
+@media (max-width: 375px){
+    
+    /*footer*/
+    #footer{
+
+        /*hero*/
+        #footer_hero{
+
+            /*row*/
+            .footer_hero_row{
+
+                & > img{
+                    width: 16rem;
+                }
+            }
+            /*end of row*/
+        }
+        /*end of hero*/
+
+    }
+    /*end of footer*/
+}
+
+// width - 320px
+@media (max-width: 320px){
+    #header{
+        img{
+            width: 18rem;
+        }
+    }
+}

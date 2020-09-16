@@ -3,9 +3,13 @@
 /**
  * CSS
  */
-$minCss = new MatthiasMullie\Minify\CSS();
-$minCss->add(dirname(__DIR__, 1) . "/public/assets/css/styleMain.css");
-$minCss->minify(dirname(__DIR__, 1) . "/public/assets/css/styleMain.min.css");
+$homeCss = new MatthiasMullie\Minify\CSS();
+$homeCss->add(dirname(__DIR__, 1) . "/public/assets/css/styleMain.css");
+$homeCss->minify(dirname(__DIR__, 1) . "/public/assets/css/styleMain.min.css");
+
+$errorCss = new MatthiasMullie\Minify\CSS();
+$errorCss->add(dirname(__DIR__, 1) . "/public/assets/css/styleError.css");
+$errorCss->minify(dirname(__DIR__, 1) . "/public/assets/css/styleError.min.css");
 
 /**
  * js

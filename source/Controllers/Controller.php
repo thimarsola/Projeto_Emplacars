@@ -24,7 +24,7 @@ abstract class Controller
     public function __construct($router)
     {
         $this->router = $router;
-        $this->view = Engine::create(dirname(__DIR__, 1) . "/views", "php");
+        $this->view = Engine::create(dirname(__DIR__, 1) . "/Views", "php");
         $this->view->addData(["router" => $this->router]);
         
         $this->seo = new Optimizer();
@@ -34,14 +34,4 @@ abstract class Controller
             ->facebook(SOCIAL["facebook_appId"]);
     }
     
-    /**
-     * 
-     * @param string $param
-     * @param array $values
-     * @return string
-     */
-    public function ajaxResponse(string $param, array $values): string
-    {
-        return json_encode([$param => $values]);
-    }
 }

@@ -30,7 +30,15 @@
         <header id="header">
             <div class="header_navbar">
                 <?php if ($v->section("navbar")): ?>
-                    <?= $v->section("navbar"); ?>
+                        <div class="container">
+                            <!-- brand -->
+                            <a href="<?= url(); ?>" title="Emplacar's">
+                                <img src="<?= asset("img/logo-header.png"); ?>" alt="Logo Emplacar's">
+                            </a>
+
+                            <?= $v->section("navbar"); ?>
+                        </div>
+
                 <?php else: ?>
                     <div class="container">
                         <!-- brand -->
@@ -98,12 +106,12 @@
                             <ul>
                                 <!--facebook-->
                                 <li>
-                                    <a href="#" title="Facebook Emplacar's" target="_blank">
+                                    <a href="https://www.facebook.com/emplacars/" title="Facebook Emplacar's" target="_blank">
                                         <img src="<?= asset("img/vt-facebook.svg"); ?>" alt="Facebook Emplacar's">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" title="Instagram Emplacar's" target="_blank">
+                                    <a href="https://www.instagram.com/emplacars/" title="Instagram Emplacar's" target="_blank">
                                         <img src="<?= asset("img/vt-instagram.svg"); ?>" alt="Instagram Emplacar's">
                                     </a>
                                 </li>
@@ -135,7 +143,7 @@
 
         <!-- SCRIPTS -->
         <script src="<?= asset("js/main.min.js"); ?>"></script>
-        <!--<script src="//code.jivosite.com/widget/JOwG95qu5k" async></script>-->
+        <script src="//code.jivosite.com/widget/JOwG95qu5k" async></script>
         <?= $v->section("scripts"); ?>
     </body>
 

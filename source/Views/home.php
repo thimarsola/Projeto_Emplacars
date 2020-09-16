@@ -559,7 +559,7 @@
             <p>Entre em contato conosco e agende um orçamento gratuito!</p>
 
             <!--form-->
-            <form>
+            <form action="<?= asset("php/send-mail.php"); ?>" method="POST" autocomplete="off">
                 <div class="main_contact_content_form_group">
                     <input name="name" type="text" placeholder="Insira seu nome">
                 </div>
