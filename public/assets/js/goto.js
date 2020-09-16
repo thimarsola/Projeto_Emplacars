@@ -1,10 +1,10 @@
-const menuItens = document.querySelectorAll(['nav ul li a[href^="#"]', '#main a[href^="#"]']);
+const menuItens = document.querySelectorAll(['#header nav ul li a[href^="#"]', '#main a[href^="#"]']);
 menuItens.forEach(item =>{
     item.addEventListener('click', scrollToIdOnClick);
 });
 function scrollToIdOnClick(){
     event.preventDefault();
-    const to = getScrollTopByHref(event.target) - 150;
+    const to = getScrollTopByHref(event.target) - 100;
     scrollToPosition(to);
 }
 function scrollToPosition(to){

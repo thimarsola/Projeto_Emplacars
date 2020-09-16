@@ -34,7 +34,7 @@
                 <?php else: ?>
                     <div class="container">
                         <!-- brand -->
-                        <a href="<?= url("#home"); ?>" title="Emplacar's">
+                        <a href="<?= url(); ?>" title="Emplacar's">
                             <img src="<?= asset("img/logo-header.png"); ?>" alt="Logo Emplacar's">
                         </a>
 
@@ -49,25 +49,24 @@
                             <nav class="header_navbar_section_nav">
                                 <ul>
                                     <li>
-                                        <a href="<?= url(); ?>">Home</a>
+                                        <a href="#home">Home</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#quem-somos"); ?>">Quem somos</a>
+                                        <a href="#quem-somos">Quem somos</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#compre-ja"); ?>">Compre já</a>
+                                        <a href="#compre-ja">Compre já</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#unidades"); ?>">Unidades</a>
+                                        <a href="#unidades">Unidades</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#franquia"); ?>">Franquias</a>
+                                        <a href="#franquia">Franquias</a>
                                     <li>
-                                        <a href="<?= url("#duvidas"); ?>">Dúvidas</a>
-                                    </li>
+                                        <a href="#duvidas">Dúvidas</a>
                                     </li>
                                     <li>
-                                        <a href="<?= url("#contato"); ?>">Contato</a>
+                                        <a href="#contato">Contato</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -136,7 +135,7 @@
 
         <!-- SCRIPTS -->
         <script src="<?= asset("js/main.min.js"); ?>"></script>
-        <script src="//code.jivosite.com/widget/JOwG95qu5k" async></script>
+        <!--<script src="//code.jivosite.com/widget/JOwG95qu5k" async></script>-->
         <?= $v->section("scripts"); ?>
     </body>
 

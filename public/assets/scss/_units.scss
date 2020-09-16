@@ -3,7 +3,7 @@
     background:{
         color: $bg-color2;
     }
-    
+
     /*header*/
     .main_units_header{
         margin-bottom: 8rem;
@@ -12,7 +12,7 @@
         @extend %title;
     }
     /*end of header*/
-    
+
     /*content*/
     .main_units_content{
         @include marginSet;
@@ -20,17 +20,17 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         grid-gap: 3rem;
-        
+
         /*article*/
         .main_units_content_card{
             width: 100%;
             background:{
                 color: $color3;
             }
-            border-radius: 1.5rem 1.5rem 1.5rem 6rem;
-            -webkit-border-radius: 1.5rem 1.5rem 1.5rem 6rem;
+            border-radius: 1.5rem 1.5rem 3rem 3rem;
+            -webkit-border-radius: 1.5rem 1.5rem 3rem 3rem;
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
-            
+
             /*image*/
             .main_units_content_card_image{
                 margin: 0;
@@ -42,7 +42,7 @@
                 border-bottom: 3px solid $color1;
             }
             /*end of image*/
-            
+
             /*content*/
             .main_units_content_card_content{
                 margin: 0;
@@ -50,7 +50,7 @@
                 text:{
                     align: center;
                 }
-                
+
                 h2{
                     margin-bottom: 1.8rem;
                     padding: 0;
@@ -60,7 +60,7 @@
                     }
                     color: $color1;
                 }
-                
+
                 /*address, zip code and phone*/
                 .main_units_content_card_content_address, .main_units_content_card_content_zipCode, .main_units_content_card_content_phone{
                     font:{
@@ -70,7 +70,7 @@
                     }
                 }
                 /*end of address, zip code and phone*/
-                
+
                 /*button cta*/
                 .main_units_content_card_content_buttonCta{
                     margin-top: 1.6rem;

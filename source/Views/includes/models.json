@@ -1,0 +1,35 @@
+{
+    "models": 
+            [
+                {
+                    "image": "img-placa-particular",
+                    "title": "Particular",
+                    "alt": "Modelo de Placa Particular"
+                },
+                {
+                    "image": "img-placa-comercial",
+                    "title": "Comercial",
+                    "alt": "Modelo de Placa Comercial"
+                },
+                {
+                    "image": "img-placa-oficial",
+                    "title": "Oficial",
+                    "alt": "Modelo de Placa Oficial"
+                },
+                {
+                    "image": "img-placa-diplomatico",
+                    "title": "Diplomático",
+                    "alt": "Modelo de Placa Diplomático"
+                },
+                {
+                    "image": "img-placa-colecionador",
+                    "title": "Colecionador",
+                    "alt": "Modelo de Placa Colecionador"
+                },
+                {
+                    "image": "img-placa-especial",
+                    "title": "Especial",
+                    "alt": "Modelo de Placa Especial"
+                }
+            ]
+}

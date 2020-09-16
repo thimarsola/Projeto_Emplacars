@@ -16,7 +16,7 @@ define("SITE",[
     "desc" => "Emplacar's",
     "domain" => "mercosulemplacars.com.br",
     "locale" => "pt_BR",
-    "root" => "https://localhost/desenvolvimento/Projeto_Emplacars"
+    "root" => "https://localhost/desenvolvimento/Sites/Projeto_Emplacars"
 ]);
 
 /**

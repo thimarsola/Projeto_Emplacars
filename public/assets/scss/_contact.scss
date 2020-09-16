@@ -1,0 +1,151 @@
+#contato{
+    @include marginSet;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    /*content*/
+    .main_contact_content{
+        flex-basis: 60%;
+        margin: 0;
+        height: auto;
+        max-height: 100% !important;
+        padding: 13rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background:{
+            color: $color1;
+        }
+        color: $color3; 
+
+        /*header*/
+        .main_contact_content_header{
+            margin-bottom: 8rem;
+            padding-left: 3.8rem;
+            border-left: 6px solid $color3;
+            h1{
+                @include marginSet;
+                font:{
+                    size: 4.2rem;
+                    weight: $font-light;
+                }
+                line:{
+                    height: 1.2;
+                }
+
+                strong{
+                    font:{
+                        size: 5.2rem;
+                        weight: $font-bold;
+                    }
+                }
+            }
+        }
+        /*end of header*/
+
+        /*form*/
+        .main_contact_content_form{
+            @include marginSet;
+
+            p{
+                margin-bottom: 3.2rem;
+                padding: 0;
+                font:{
+                    size: 2rem;
+                    weight: $font-light;
+                }
+                text:{
+                    align: justify;
+                }     
+            }
+
+            /*form*/
+            form{
+                margin: 0;
+                padding: 3.2rem;
+                background:{
+                    color: $color3;
+                }
+                box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+
+                input, textarea{
+                    width: 100%;
+                    padding: 1.2rem 1.6rem;
+                    font:{
+                        family: 'Exo 2', sans-serif !important;
+                        size: 1.4rem;
+                        weight: $font-light;
+                    }
+                    color: #495057 !important;
+                    border: 1px solid #A7A7A7;
+                    border-radius: 5px;
+                    overflow: visible;
+                }
+
+                textarea{
+                    resize: none;
+                }
+
+                .main_contact_content_form_group{
+                    margin: 1.6rem 0;
+                    padding: 0;
+                    background: {
+                        color: $color3;
+                    }
+                }
+
+                /*button*/
+                .main_contact_content_form_button{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+
+                    button{
+                        display: inline-block;
+                        margin: 0;
+                        padding: 1.2rem 3.2rem;
+                        border-radius: 3px;
+                        cursor: pointer;
+                        vertical-align: middle;
+                        outline: none;
+                        border: none;
+                        transition: transform .3s ease-in-out;
+                        font:{
+                            size: 1.8rem;
+                            weight: $font-regular;
+                            family: 'Exo 2', sans-serif !important;
+                        }
+
+                        &:active{
+                            transform: scale(1.1);
+                            transition: transform .3s ease-in-out;
+                        }
+                    }
+                }
+                /*end of button*/
+            }
+            /*end of form*/
+        }
+        /*end of form*/
+    }
+    /*end of content*/
+    
+    /*image*/
+    .main_contact_image{
+        flex-basis: 40%;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        object:{
+            fit: cover;
+            position: center
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    /*end of image*/
+}
