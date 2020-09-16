@@ -13,6 +13,7 @@
             justify-content: space-between;
             align-items: center;
             flex-direction: row;
+            flex-wrap: wrap;
 
             /*footer hero row social media*/
             .footer_hero_row_socialMedia{
@@ -29,6 +30,8 @@
 
                 ul{
                     display: flex;
+                    flex-wrap: wrap;
+
                     li{
                         margin: 2.2rem 1.6rem;
                         padding: 0;
@@ -76,7 +79,7 @@
         background:{
             color: $bg-color3;
         }
-        
+
         p{
             @include marginSet;
             text:{
@@ -85,7 +88,7 @@
         }
     }
     /*end of footer copyright*/
-    
+
     /*footer developer*/
     .footer_developer{
         margin: 0;
@@ -94,16 +97,16 @@
             color: $bg-color1;
         }
         color: $color3;
-        
+
         p{
             @include marginSet;
             text:{
                 align: center;
             }
-            
+
             a{
                 transition: .3s ease-in-out;
-                
+
                 &:hover{
                     color: darken($color3, 20%);
                     transition: color .3s ease-in-out;

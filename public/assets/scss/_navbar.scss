@@ -17,6 +17,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
 
             .header_navbar_section{
                 .header_navbar_section_nav{
@@ -27,6 +28,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        flex-wrap: wrap;
 
                         & > li:last-child{
                             padding-right: 0;
@@ -62,7 +64,7 @@
 
                                 &:hover{
                                     color: $color1;
-                                    
+
                                     &::after{
                                         content: '';
                                         border: 1px solid $color1;

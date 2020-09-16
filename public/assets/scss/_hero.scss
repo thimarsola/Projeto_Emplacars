@@ -3,6 +3,7 @@
     height: 100vh !important;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background:{
         image: url('../img/bg-home.jpg');
         size: cover;
