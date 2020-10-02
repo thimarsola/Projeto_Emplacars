@@ -183,7 +183,7 @@
 
                         <!--button cta-->
                         <div class="main_units_content_card_content_buttonCta">
-                            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511<?= $unit["whatsapp"]; ?>&text=Olá! Gostaria de solicitar uma placa" class="btn btn-color1" title="Solicite sua placa aqui na <?= $unit["title"]; ?>" target="_blank">Solicite sua placa aqui</a>
+                            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511<?= $unit["whatsapp"]; ?>&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20placa" class="btn btn-color1" title="Solicite sua placa aqui na <?= $unit["title"]; ?>" target="_blank">Solicite sua placa aqui</a>
                         </div>
                         <!--end of button cta-->
 
@@ -343,7 +343,7 @@
 
                 <!--header-->
                 <header class="main_doubts_content_article_header">
-                    <h1>A troca de placa é obrigatória?</h1>
+                    <h2>A troca de placa é obrigatória?</h2>
                     <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
                 </header>
                 <!--end of header-->
@@ -374,7 +374,7 @@
 
                 <!--header-->
                 <header class="main_doubts_content_article_header">
-                    <h1>Qual procedimento seguir para trocar a placa?</h1>
+                    <h2>Qual procedimento seguir para trocar a placa?</h2>
                     <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
                 </header>
                 <!--end of header-->
@@ -399,7 +399,7 @@
 
                 <!--header-->
                 <header class="main_doubts_content_article_header">
-                    <h1>Houve alguma alteração no documento do veículo?</h1>
+                    <h2>Houve alguma alteração no documento do veículo?</h2>
                     <img src="<?= asset("img/vt-arrow.svg") ?>" alt="Dúvidas Frequentes Emplacar's">
                 </header>
                 <!--end of header-->

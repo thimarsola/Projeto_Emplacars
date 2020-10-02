@@ -701,7 +701,7 @@ html {
         cursor: pointer;
         transition: .3s ease-in-out all;
         background-color: #fafafa; }
-        #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_header h1 {
+        #duvidas .main_doubts_content .main_doubts_content_article .main_doubts_content_article_header h2 {
           margin: 0;
           padding: 0;
           font-size: 2.8rem;
@@ -1123,7 +1123,7 @@ html {
           transition: color .3s ease-in-out; }
 
 /*media query*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 50%; }
 
@@ -1213,7 +1213,7 @@ html {
       flex-basis: 30%; }
 
   /*end of contact*/ }
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   /*hero*/
   #main_hero {
     /*content*/
@@ -1314,7 +1314,7 @@ html {
       display: none; }
 
   /*end of contact*/ }
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   /*footer*/
   #footer {
     /*hero*/
